@@ -1,0 +1,28 @@
+<Project Sdk="Godot.NET.Sdk/4.5.1">
+  <PropertyGroup>
+    <TargetFramework>net9.0</TargetFramework>
+    <RootNamespace>PathPeek</RootNamespace>
+    <AssemblyName>PathPeek</AssemblyName>
+    <EnableDynamicLoading>true</EnableDynamicLoading>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <LangVersion>latest</LangVersion>
+  </PropertyGroup>
+
+  <!--
+    Place sts2.dll (and optionally 0Harmony.dll, GodotSharp.dll) into ./lib/
+    before building. See lib/README.md for the source path inside the game
+    install. These references are <Private>false</Private> because the game
+    already loads them.
+  -->
+  <ItemGroup>
+    <Reference Include="sts2">
+      <HintPath>lib\sts2.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+    <Reference Include="0Harmony" Condition="Exists('lib\0Harmony.dll')">
+      <HintPath>lib\0Harmony.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+  </ItemGroup>
+</Project>

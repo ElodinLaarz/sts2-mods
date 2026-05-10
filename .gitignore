@@ -1,0 +1,56 @@
+# --- Slay the Spire 2 game DLL (do NOT redistribute) ---
+lib/sts2.dll
+lib/*.dll
+!lib/.gitkeep
+
+# --- .NET / C# build output ---
+bin/
+obj/
+*.user
+*.suo
+*.userprefs
+*.swp
+*.cache
+*.dbmdl
+*.pidb
+*.svclog
+*.scc
+
+# --- Godot ---
+.godot/
+.import/
+export.cfg
+export_presets.cfg
+*.translation
+mono_crash.*.json
+
+# Built/exported artifacts
+*.pck
+*.zip
+build/
+dist/
+
+# --- IDE / editor ---
+.vs/
+.vscode/
+.idea/
+*.DotSettings
+*.DotSettings.user
+*.csproj.user
+*.sln.docstates
+
+# --- OS junk ---
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+.DS_Store
+
+# --- Secrets / local config ---
+*.env
+.env*
+local.settings.json
+secrets.*
+
+# Logs
+*.log
+logs/

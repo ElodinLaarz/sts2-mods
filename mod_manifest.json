@@ -1,0 +1,11 @@
+{
+  "id": "PathPeek",
+  "name": "PathPeek",
+  "author": "caleblgeiger",
+  "description": "Shows the maximum count of each room type reachable on any single path from your current map position. Hover a room icon to highlight the path(s) achieving that maximum.",
+  "version": "0.1.0",
+  "has_dll": true,
+  "has_pck": false,
+  "affects_gameplay": false,
+  "dependencies": []
+}

@@ -1,0 +1,12 @@
+; Godot project for the PathPeek Slay the Spire 2 mod (C# / .NET).
+config_version=5
+
+[application]
+config/name="PathPeek"
+config/features=PackedStringArray("4.5", "C#", "Forward Plus")
+config/icon="res://icon.svg"
+run/main_scene="res://main.tscn"
+
+[dotnet]
+project/assembly_name="PathPeek"
+project/assembly_reloadable_project=true
